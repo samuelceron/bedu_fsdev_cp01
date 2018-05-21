@@ -27,15 +27,11 @@ body {
   button:focus {
     outline: none;
   }
-  
-  
-  #carousel-container img {
-    max-height: 500px;
-  }
-  
+   
   #footer-container {
-    background-color: #1c3643;
+    background-color:tomato;
     color: white;
+    font-size:90%;
   }
   
   #footer-container .form-control {
@@ -48,7 +44,7 @@ body {
   
   
   #filtros-container .list-group-item-action.active {
-    background-color: ;
+    background-color: yellow;
     border-color: tomato;
   }
   
@@ -107,8 +103,86 @@ body {
   color:white;
 }
 
+section{
+  margin-top: 3em;
+}
+
+.alcentro{
+  text-align: center;  
+}
+
+.tomato1{
+  background-color: tomato;
+}
+
+.beneficios {
+  /* display: grid; */
+  /* grid-template-columns: 1rem; */
+  background-color: white;
+  color: #444;
+  margin-top:1em;
+}
+
+.box {
+  background-color:tomato;
+  color: white;
+  border-radius: 5px;
+  margin: 1em 1em 1em 1em;
+  padding: 1em;
+  /* font-size: 150%; */
+}
+
+.box-title{
+  background-color: brown;
+  color: white;
+  border-radius: 5px;
+  margin: 1em 1em 1em 1em;
+  padding: 1em;
+  border: 2px solid brown
+}
+
+.seccion5{
+  background-color: white;
+  color: brown;
+  border-radius: 5px;
+  margin: 1em 1em 1em 1em;
+  padding: 1em;
+  border: 2px solid brown
+  }
+
+.box:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.pedido{
+  background-color: tomato;
+  color: white;
+  border-radius: 5%;
+  font-size:2em;
+}
+
+.pedido:hover{
+  cursor: pointer;
+}
+
+.suscribete{
+  border-radius: 5%;
+  background-color: brown;
+  color:white;
+}
+
   @media (max-width: 768px) {
     #menu-container .form-control {
       width: inherit;
     } 
   }
+
+  .seccion2{
+    border:1px solid rgb(135, 132, 127, 0.4);
+    margin-top: 1em;
+    }
+  .seccion5{
+    border:1px solid rgb(135, 132, 127, 0.4);
+    margin-top: 1em;
+}
