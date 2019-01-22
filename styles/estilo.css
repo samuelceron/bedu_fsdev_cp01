@@ -149,4 +149,10 @@ section {
   border: 1px solid #87847f;
   margin-top: 1em; }
 
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 /*# sourceMappingURL=estilo.css.map */
